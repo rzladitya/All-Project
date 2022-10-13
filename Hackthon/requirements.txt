@@ -1,0 +1,8 @@
+streamlit
+numpy
+tensorflow-cpu
+pandas
+math
+plotly
+datetime
+scikit-learn
