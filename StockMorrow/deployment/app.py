@@ -97,13 +97,13 @@ if selected == "Home":
         main()
 
 # Load model and vectorizer
-with open("nb_model.pkl", "rb") as model_file:
+with open("model/nb_model.pkl", "rb") as model_file:
     nb_model = pickle.load(model_file)
 # Load Vectorizer
-vectorizer = joblib.load('vectorizer.pkl')
+vectorizer = joblib.load('model/vectorizer.pkl')
 
 # Load model stock predict
-with open("preprocessor.pkl", "rb") as file:
+with open("model/preprocessor.pkl", "rb") as file:
     stock_model = pickle.load(file)
 
 if selected == "Projects":
